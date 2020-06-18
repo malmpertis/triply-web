@@ -1,0 +1,28 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-triply-web-dev-223705-authRole",
+            "UnauthRoleArn": "arn:aws:iam::037253559530:role/amplify-triply-web-dev-223705-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::037253559530:role/amplify-triply-web-dev-223705-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-triply-web-dev-223705-deployment",
+            "UnauthRoleName": "amplify-triply-web-dev-223705-unauthRole",
+            "StackName": "amplify-triply-web-dev-223705",
+            "StackId": "arn:aws:cloudformation:eu-west-2:037253559530:stack/amplify-triply-web-dev-223705/1971ff50-b19b-11ea-a093-02bbe2e31b38",
+            "AmplifyAppId": "d3uh940xds4vhg"
+        }
+    },
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-triply-web-production-225820-authRole",
+            "UnauthRoleArn": "arn:aws:iam::037253559530:role/amplify-triply-web-production-225820-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::037253559530:role/amplify-triply-web-production-225820-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-triply-web-production-225820-deployment",
+            "UnauthRoleName": "amplify-triply-web-production-225820-unauthRole",
+            "StackName": "amplify-triply-web-production-225820",
+            "StackId": "arn:aws:cloudformation:eu-west-2:037253559530:stack/amplify-triply-web-production-225820/106efe00-b19e-11ea-9a02-0622cd7b28da",
+            "AmplifyAppId": "d3uh940xds4vhg"
+        }
+    }
+}
