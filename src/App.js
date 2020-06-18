@@ -4,6 +4,7 @@ import './App.css';
 import topImage from './assets/images/topwave.png'
 import bottomImage from './assets/images/bottomwaves.png'
 import googlePlayBadge from './assets/images/google-play-badge.png'
+import appStoreBadge from './assets/images/app-store-badge.svg'
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
         <p>
           Triply. Coming soon!
         </p>
-        <div>
+        <div style={{display: 'flex', alignItems: 'center'}}>
           <img src={googlePlayBadge} className="store-badge" alt="google play badge" />
+          <img src={appStoreBadge} style={{height: 40}} alt="google play badge" />
         </div>
         <img style={{
           width: '100%',
